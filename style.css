@@ -9,7 +9,7 @@ body {
 }
 
 /* Style the header */
-.header {
+header {
   background-color: #f1f1f1;
   padding: 30px;
   text-align: center;
@@ -22,20 +22,24 @@ body {
   width: 33.33%;
   padding: 10px;
 }
+
 .red{
   border-color: red;
 }
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
+
 .spacer{
   height: 20px;
 }
+
 /* Style the footer */
-.footer {
+footer {
   background-color: #f1f1f1;
   padding: 10px;
   text-align: center;
@@ -47,13 +51,16 @@ body {
     width: 100%;
   }
 }
+
 .icone{
   margin : 10px;
 }
+
 .dataIcones{
   padding-top: 10%;
   margin: auto;
 }
+
 #data{
   color: blue;
   font-weight: bold;
